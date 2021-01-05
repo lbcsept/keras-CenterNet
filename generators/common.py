@@ -447,7 +447,7 @@ class Generator(keras.utils.Sequence):
             #     x2_, y2_ = np.round(affine_transform(bboxes[i, 2:], trans_output)).astype(np.int32)
             #     class_id = class_ids[i]
             #     cv2.rectangle(image, (x1, y1), (x2, y2), (0, 255, 0), 1)
-            #     cv2.putText(image, str(class_id), (x1, y1), cv2.FONT_HERSHEY_SIMPLEX, 2.0, (0, 0, 0), 3)
+            #     cv2.putText(image, str(class_id), (x1, y1), cv2.FONT_HERSHEY_SIMPLEX, 2.0getAffineTransform, (0, 0, 0), 3)
             #     cv2.rectangle(hm, (x1_, y1_), (x2_, y2_), (0, 255, 0), 1)
             #     cv2.rectangle(hm_2, (x1_, y1_), (x2_, y2_), (0, 255, 0), 1)
             # cv2.namedWindow('hm', cv2.WINDOW_NORMAL)
